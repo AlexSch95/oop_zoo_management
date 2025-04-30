@@ -35,7 +35,7 @@ class Fuetterung:
         self.gefuettertes_tier = gefuettertes_tier
 
     def fuetterungsprozess(self, gefuettertes_tier):
-        print(f"{self.fuetternder_pfleger} hat {gefuettertes_tier} {gefuettertes_tier.art_name} gefüttert")
+        print(f"{self.fuetternder_pfleger} hat {gefuettertes_tier.tier_name} {gefuettertes_tier.art_name} gefüttert")
 
 
 
